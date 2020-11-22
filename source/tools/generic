@@ -3,5 +3,5 @@ exports.myDateTime = function () {
 };
 
 exports.myAwesomesauce = function () {
-  return "\n\nAWEOMESAUCE";
+  return "\n\nAWEOMESAUCE v.3";
 };

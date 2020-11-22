@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.write("The date and time is currently:\n" + lib.myDateTime());
+  res.write('\n\nYour URI is '+req.url);
   res.write(lib.myAwesomesauce());
   res.end('\n\nHello World! Yep\n');
 });
